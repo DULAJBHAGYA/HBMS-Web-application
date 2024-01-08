@@ -1,0 +1,131 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact_head h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #0A244B;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.contact_body{
+    width: 50%;
+    background-color: #43A6C6;
+    float: left;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 50px;
+    height: 530px;
+}
+
+.contact_details{
+    width: 50%;
+    background-color: #fff;
+    float: right;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-right: 50px;
+    height: 530px;
+}
+
+.contact_header h1{
+    color: #fff;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.contact_header h2{
+    color: #fff;
+    padding-top: 0px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.contact_flex_section{
+    display: "flex";
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.contact_form label{
+    padding-top: 5px;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.contact_details img{
+    align-content: center;
+    padding-left: 50px;
+}
+
+.socialmed h3{
+    color: #0A244B;
+    align-items:center;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 200px;
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+}
+
+.telnmail{
+    display: flex;
+justify-content: center;}
+
+.socialmed{
+    padding-top: 30px;
+    
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact_form input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    margin-bottom: 2px;
+    width: 500px;
+  }
+
+.contact_form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.tall-input {
+    height: 145px; 
+    padding-bottom: 5px;
+}
+
+h3 svg {
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+#icons{
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.big-button {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  

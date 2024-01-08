@@ -1,0 +1,59 @@
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .services-body-head h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #0A244B;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 10px;
+  }
+  
+  .services-card-container {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    width: 100%; /* Adjust the card width as needed */
+  }
+  
+  /* Other styles */
+  
+  .radio-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .radio-buttons-container input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-buttons-container label {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .radio-buttons-container label::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #5680E9;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-color: #fff;
+  }
+  
+  .radio-buttons-container input[type="radio"]:checked + label::before {
+    background-color: #5680E9;
+  }
+  

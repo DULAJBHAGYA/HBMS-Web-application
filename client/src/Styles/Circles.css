@@ -1,0 +1,25 @@
+.circlecontainer {
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 430px;
+      display: flex;
+      flex-direction: row;  
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #99AAD5;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle img{
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+  }
+  

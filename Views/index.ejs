@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            color: #0A244B;
+            margin-bottom: 20px;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        input[type="password"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #5680E9;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1><%= email%></h1>
+        <form action="" method="post">
+            <input type="password" name="password" id="password" placeholder="Password"/><br/>
+            <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm password"/><br/>
+            <input type="submit" value="submit"/>
+        </form>
+    </div>
+</body>
+</html>

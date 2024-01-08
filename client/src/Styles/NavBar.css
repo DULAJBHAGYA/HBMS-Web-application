@@ -1,0 +1,12 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link{
+    font-family:'Poppins', sans-serif;
+    color: #0A244B;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 10px;
+  }

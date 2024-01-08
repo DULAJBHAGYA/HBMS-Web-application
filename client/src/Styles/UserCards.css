@@ -1,0 +1,34 @@
+.usercard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #C4D1F7;
+  border-radius: 20px;
+  margin-top: 20px;
+  height: 220px;
+}
+
+.usercard-row {
+  display: flex;
+}
+
+.usercard-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  width: 300px;
+}
+
+.usercard-section {
+  background-color: #C4D1F7;
+  padding: 10px;
+  margin: 0px;
+}
+
+.usercard-section p{
+  font-size: 15px;
+  font-weight: bold;
+  color: #2c2c2c;
+}
