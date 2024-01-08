@@ -1,0 +1,15 @@
+.Button-one{
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    background-color: #5680E9;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.Button-one :hover{
+    background-color: #fff;
+}
